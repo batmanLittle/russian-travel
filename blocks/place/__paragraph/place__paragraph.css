@@ -6,6 +6,7 @@
     line-height: 29.34px;
     display: block;
     margin-top: -15px; 
+    grid-area: item-4;
   }
   @media (max-width: 768px){
     .place__paragraph{
@@ -26,4 +27,4 @@
     justify-items: center;
      }
   }
-  .place__paragraph{grid-area: item-4;}
+  

@@ -2,6 +2,7 @@
     align-self: flex-end;
      max-height: 46px;
      margin-bottom: 48px;
+     grid-area: item-2;
      
    }
    @media (max-width: 320px){
@@ -10,4 +11,4 @@
        width: 288px;
       }
    }
-   .website{grid-area: item-2;}
+   
