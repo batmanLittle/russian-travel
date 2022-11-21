@@ -1,0 +1,13 @@
+.header {
+    margin: auto;
+    max-height: 52px;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 320px) {
+    .header {
+      max-height: 42px;
+    }
+  }

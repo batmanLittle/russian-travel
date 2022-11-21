@@ -1,0 +1,20 @@
+.page {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: auto;
+    width: 100%;
+    background-color: rgba(42, 44, 47, 1);
+    padding-top: 28px;
+    overflow-x: hidden;
+  }
+  
+  @media (max-width: 320px) {
+    .page {
+      padding-top: 18px;
+      max-width: 320px;
+    }
+  }

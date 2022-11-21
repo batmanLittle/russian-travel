@@ -1,0 +1,13 @@
+.website{
+    align-self: flex-end;
+     max-height: 46px;
+     margin-bottom: 48px;
+     
+   }
+   @media (max-width: 320px){
+     .website{
+       margin-bottom: 32px;
+       width: 288px;
+      }
+   }
+   .website{grid-area: item-2;}
