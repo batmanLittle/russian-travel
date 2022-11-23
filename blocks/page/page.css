@@ -1,20 +1,33 @@
 .page {
-    -moz-osx-font-smoothing: grayscale;
+     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility; 
     margin: auto;
-    width: 100%;
+    max-width: 1280px;
     background-color: rgba(42, 44, 47, 1);
     padding-top: 28px;
-    overflow-x: hidden;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
   }
-  
-  @media (max-width: 320px) {
+  @media (min-width: 320px) and (max-width: 760px) {
     .page {
-      padding-top: 18px;
+      padding-top: 16px;
       max-width: 320px;
     }
   }
+  @media (min-width: 768px) and (max-width: 950px) {
+    .page {
+      max-width: 768px;
+   }
+  }
+  @media (max-width: 1024px) {
+    .page {
+      max-width: 1024px;
+    }
+  } 
+
+

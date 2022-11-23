@@ -1,26 +1,13 @@
 .places{
-    margin: auto;
-    max-width: 984px;
-    padding-top: 92px;
-    padding-left: 0px;
-  }
-  @media (max-width: 1024px){
+    margin-bottom: 92px;
+}
+@media (max-width: 768px) {
     .places{
-      max-width: 928px;
-      
+        margin-bottom: 90px;
     }
-  }
-  @media (max-width: 768px){
+}
+@media (max-width: 768px) {
     .places{
-      max-width: 720px;
-      
-      
+        margin-bottom: 66px;
     }
-  }
-  @media (max-width: 320px){
-    .places{
-      max-width: 320px;
-      padding-top: 64px;
-      
-    }
-  }
+}

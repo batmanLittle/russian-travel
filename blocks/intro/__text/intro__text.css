@@ -1,12 +1,12 @@
 
 .intro__text {
     color: white;
-    margin-top: 40px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26.08px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 33px;
   } 
   @media (max-width: 320px) {
     .intro__text {

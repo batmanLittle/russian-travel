@@ -3,7 +3,8 @@
    grid-template-columns: repeat(auto-fit, minmax(284px, 213px));
    gap: 16px;
    justify-content: center;
-   
+   margin-top: 92px;
+   margin-bottom: 92px;
  } 
  @media (max-width: 1024px) {
    .photo-grid {
@@ -14,13 +15,15 @@
  @media (max-width: 768px) {
    .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(352px, 264px));
-   
+    margin-top: 88px;
+    margin-bottom: 88px;
    }
  } 
- @media (max-width: 320px) {
+ @media (min-width: 320px) and (max-width: 360px) {
    .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(288px, 216px));
     gap: 12px;
-   
+    margin-top: 64px;
+    margin-bottom: 64px;
    }
  } 

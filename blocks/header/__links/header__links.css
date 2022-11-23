@@ -1,6 +1,7 @@
 .header__links {
     display: flex;
-    padding: 0;
     color: white;
-    gap: 18px;
+    margin-bottom: 0px;
+    column-gap: 18px;
+    padding: 0px;
   }

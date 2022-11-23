@@ -1,11 +1,11 @@
 .website{
     align-self: flex-end;
-     max-height: 46px;
      margin-bottom: 48px;
      grid-area: item-2;
      
    }
-   @media (max-width: 320px){
+
+@media (min-width: 320px) and (max-width: 760px){
      .website{
        margin-bottom: 32px;
        width: 288px;
