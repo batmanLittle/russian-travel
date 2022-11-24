@@ -1,4 +1,4 @@
-.header__lang_link {
+.header__link {
     color: white;
     text-decoration: none;
     font-family: "Inter", sans-serif;
@@ -9,11 +9,11 @@
     margin: auto;
   }
   @media (max-width: 320px) {
-    .header__lang_link {
+    .header__link {
       font-size: 18px;
       line-height: 20px;
     }
   }
-  .header__lang_link:hover{
+  .header__link:hover{
     opacity: 80%;
   }
