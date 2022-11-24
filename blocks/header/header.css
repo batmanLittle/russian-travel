@@ -1,8 +1,21 @@
 .header {
     margin: auto;
-    width: 92.5%;
+    width: 1184px;
     display: flex;
     justify-content: space-between;
   }
-  
-
+ @media (min-width: 1024px) and (max-width: 1183px) {
+  .header {
+   max-width: 928px;
+  }
+ } 
+ @media (min-width: 768px) and (max-width: 1020px) {
+  .header {
+   max-width: 720px;
+  }
+ } 
+ @media (min-width: 320px) and (max-width: 760px) {
+  .header {
+   max-width: 288px;
+  }
+ } 

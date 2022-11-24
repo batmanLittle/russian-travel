@@ -1,0 +1,24 @@
+.place__text{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 27px
+}
+
+@media (max-width: 1024px) {
+    .place__text{
+        max-width: 433px;
+        gap: 24px;
+    }
+}
+@media (min-width: 768px) and (max-width: 950px) {
+    .place__text{
+       gap: 25px;
+    }
+}
+@media (min-width: 320px) and (max-width: 760px) {
+    .place__text{
+        gap: 25px;
+        margin-top: 32px;
+    }
+}

@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang_link {
     color: white;
     text-decoration: none;
     font-family: "Inter", sans-serif;
@@ -6,12 +6,14 @@
     font-size: 24px;
     line-height: 28px;
     list-style-type: none;
+    margin: auto;
   }
   @media (max-width: 320px) {
-    .header__lang-link {
+    .header__lang_link {
       font-size: 18px;
       line-height: 20px;
     }
   }
-  
- 
+  .header__lang_link:hover{
+    opacity: 80%;
+  }

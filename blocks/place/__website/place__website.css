@@ -1,12 +1,12 @@
-.website{
+.place__website{
     align-self: flex-end;
-     margin-bottom: 48px;
+     margin-bottom: 47px;
      grid-area: item-2;
      
    }
 
 @media (min-width: 320px) and (max-width: 760px){
-     .website{
+     .place__website{
        margin-bottom: 32px;
        width: 288px;
       }
