@@ -6,7 +6,7 @@
   background-position: center center;
   background-size: cover;
 }
-@media (min-width: 320px) and (max-width: 1024px) {
+@media (min-width: 320px) and (max-width: 1200px) {
   .cover{
     max-width: 100%;
   }
