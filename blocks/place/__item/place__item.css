@@ -18,7 +18,7 @@
      grid-template-columns: 340px 352px;
     }
   }
-  @media (min-width: 320px) and (max-width: 760px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .place__item{
       grid-template-columns: max-content;
       grid-template-areas: 

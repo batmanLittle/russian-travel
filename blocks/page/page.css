@@ -6,14 +6,13 @@
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
     margin: auto;
-    max-width: 1280px;
     background-color: rgba(42, 44, 47, 1);
     padding-top: 28px;
     box-sizing: border-box;
     display: block;
     position: relative;
   }
-  @media (min-width: 320px) and (max-width: 760px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .page {
       padding-top: 16px;
       max-width: 320px;
@@ -29,9 +28,5 @@
       max-width: 1024px;
     }
   } 
-  @media (min-width: 1281px) and (max-width: 2500px){
-    .page {
-      max-width: 100%;
-    }
-  } 
+
 

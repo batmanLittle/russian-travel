@@ -24,7 +24,7 @@
     }
   }
   
-  @media (min-width: 320px) and (max-width: 760px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .place__title{
       width: 288px;
       font-size: 32px;
