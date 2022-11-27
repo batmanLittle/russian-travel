@@ -25,7 +25,7 @@
         padding-bottom: 115px;
     }
   }
-  @media (max-width: 320px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .cover__overlay{
         padding-top: 33px;
         padding-bottom: 33px;
