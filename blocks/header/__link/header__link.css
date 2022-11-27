@@ -8,7 +8,7 @@
     list-style-type: none;
     margin: auto;
   }
-  @media (max-width: 320px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .header__link {
       font-size: 18px;
       line-height: 20px;
