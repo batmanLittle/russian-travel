@@ -19,7 +19,7 @@
       max-width: 720px;
     }
   } 
-  @media (min-width: 320px)and (max-width: 750px){
+  @media (min-width: 320px)and (max-width: 640px){
     .intro {
       margin-left: 16px;
       margin-top: 64px;
