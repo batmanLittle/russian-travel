@@ -9,7 +9,7 @@
       max-width: 928px;
     }
   }
-  @media (min-width: 320px) and (max-width: 768px) {
+  @media (min-width: 320px) and (max-width: 1000px) {
     .lead{
       max-width: 100%;
     }
